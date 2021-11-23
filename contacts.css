@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color:   rgba(0, 0, 0,0.8);
+    display: flex;
+    justify-content: flex-end;
+
+}
+nav a{
+    color:wheat;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-decoration: none;padding: 20px;
+}
+
+.logo a:hover{
+    color: white;
+}
+
+nav button:hover{
+    background-color: black;
+    color: white;
+}
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+nav button{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-right: 1px;
+    color:wheat;
+    padding: 2px;
+    cursor: pointer;
+
+}
+.logo{
+    color: wheat;
+
+    position: absolute;
+    padding: 20px;
+    justify-content: flex-start;
+    width: 30%;
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.mother{
+    background-color: rgba(0, 0, 0,0.9)    ;
+
+    width: 100%;
+    height: 700px;
+    color: white;
+    
+}
+.mother h1{
+    margin-left: 35%;
+    margin-bottom: 20px;
+}
+.mother p{
+    margin-left: 35%;
+    margin-bottom: 30px;
+}
+footer{
+    width: 100%;
+
+    height: 400px;
+    display: flex;
+}
+footer p{
+    color: white;
+    font-size: 30px;
+}
+footer p:first-of-type{
+    margin-right: 300px;
+}
+footer p:last-of-type{
+    margin-top: 60px;
+}
+footer i{
+    padding: 10px;
+    color: white;
+    font-size: 23px;
+}
+
+.namef{
+    height: 50px;
+}
+.namef input{
+    margin-left: 35%;
+    width: 20%;
+}
+.namef select{
+    width: 13%;
+}
+.nametel {
+}
+.nametel input{
+    margin-left: 3px;
+}
+.nametel label:last-of-type{
+    margin-left: 30px;
+}
+.nametel label:first-of-type{
+    margin-left: 35%;
+}
+.tel {
+margin-left: 0px;
+}
+#label{
+    margin-left: 0;
+}
+.namef p{
+    margin-left: 30%;
+}
+#rdfinal{
+    margin-left: 26%;
+}
+.namem label{
+    margin-left: 35%;
+}
+#lbllast{
+    margin-left: 0px;
+}
+
+.namem{
+    height: 250px;
+}
+.namef label{
+    margin-left: 35%;
+}
+.namem input,.namem textarea{
+    margin-left: 35%;
+    width: 20%;
+}
+#product{
+    margin-left: 35%;
+}
+@media (max-width:500px){
+    nav {
+        width: 100%;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .logo{
+        display: none;
+    }
+    nav a{
+        font-size: 20px;
+        padding: 13px;
+        margin-left: 0px;
+    }
+    .mother{
+        position: relative;
+        height: 1260px;
+        width: 100%;
+    }
+    .mother h1{
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .mother p{
+        position: relative;
+        margin-left: 1px;
+        font-size: 16px;
+        word-wrap:break-word;
+    }
+    main{
+        flex-direction: column;
+        justify-content:center;
+        column-gap: 0px;
+    }
+    .text{
+        font-size: 20px;
+        width: 94%;
+        margin-left: 20px;
+        margin-bottom: 0px;
+    }
+    .text h1,p{
+        margin-top: 0;
+        margin-left: 5px;
+    }
+    .image{
+        width: 100%;
+    }
+    .image img{
+        margin-left: 0;
+        width: 80%;
+        height: 60%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;    
+        height: 500px;
+    }
+    footer i{
+        font-size: 20px;
+        margin-top: 20px;
+
+    }
+    footer p{
+        font-size: 20px;
+    }
+    form{
+        margin-top: 100px;
+    }
+    .namef input{
+        width: 76%;
+        margin-left: 0px;
+        padding: 10px;
+    } 
+    .namem textarea{
+        width: 76%;
+        margin-left: 0px;
+    }
+    .namem input{
+        margin-left: 0px;
+        width: 75%;
+    }
+    .namem label{
+        margin-left: 0px;
+    }
+    input{
+        width: 100%;
+    }
+    #rdfinal{
+        margin-left: 0px;
+    }
+    .lbllast{
+        margin-left: 0px;
+    }
+    .namef label{
+        margin-left: 30px;
+    }
+    #product{
+        width: 75%;
+        margin-left: 0px;
+    }
+    .telrad{
+        margin-left: 30px;
+    }
+    .hide{
+        display: none;
+    }
+}
