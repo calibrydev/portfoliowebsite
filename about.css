@@ -53,7 +53,7 @@ nav button:hover{
 .mother{
     background-color: rgba(0, 0, 0,0.9)    ;
     width: 100%;
-    height: 980px;
+    height: 1500px;
     color: white;
 }
 main{
@@ -154,7 +154,7 @@ caption{
     }
     .mother{
         position: relative;
-        height: 1300px;
+        height: 1800px;
     }
     main{
         flex-direction: column;
@@ -189,5 +189,16 @@ caption{
     }
     .footer p{
         font-size: 20px;
+    }
+    .table table{
+        width: 50%;
+        height: 100%;
+        margin-left: 0px;
+        padding: 5px;
+    }
+    .table{
+        width: 100%;
+        height: 400px;
+        overflow-x: auto;
     }
 }
