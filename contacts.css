@@ -157,7 +157,7 @@ margin-left: 0px;
     }
     .mother{
         position: relative;
-        height: 1260px;
+        height: 1300px;
         width: 100%;
     }
     .mother h1{
@@ -197,17 +197,20 @@ margin-left: 0px;
     footer{
         display: flex;
         flex-direction: column;    
-        height: 500px;
+        height: 600px;
+        width:100%;
     }
     footer i{
         font-size: 20px;
         margin-top: 20px;
+        margin-left:30%;
 
     }
     footer p{
         font-size: 20px;
     }
     form{
+        margin-left: 10%;
         margin-top: 100px;
     }
     .namef input{
@@ -246,6 +249,9 @@ margin-left: 0px;
         margin-left: 30px;
     }
     .hide{
+        display: none;
+    }
+     .radio-button{
         display: none;
     }
 }
