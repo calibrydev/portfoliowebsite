@@ -180,7 +180,7 @@ display: none;
     }
     .mother{
         position: relative;
-        height: 3000px;
+        height: 3200px;
     }
     .testimonials {
         flex-direction: column;
@@ -188,14 +188,27 @@ display: none;
         height: 600px;
     }
     .jacky,.roby{
-        width: 100%;
+       
+           width: 88%;
+        margin-left: 20px;
+
     }
     .jacky{
         margin-bottom: 30px;
     }
-    .testimonials p{
-        font-size: 18px;
+     .roby p{
+        text-align: justify;
+        font-size: 20px;
     }
+    .jacky{
+        margin-bottom: 30px;
+    }
+    .jacky p{
+        text-align: justify;
+        font-size: 20px;
+    }
+   
+   
     .testimonials br{
         display: none;
     }
@@ -210,9 +223,10 @@ display: none;
     }
     .text{
         font-size: 20px;
-        width: 94%;
+        width: 90%;
         margin-left: 20px;
         margin-bottom: 0px;
+        margin-top:100px;
     }
     .text h1,p{
         margin-top: 0;
@@ -220,10 +234,11 @@ display: none;
     }
     .image{
         width: 100%;
+          margin-left: 18px;
     }
     .image img{
         margin-left: 0;
-        width: 90%;
+        width: 100%;
         height: 60%;
     }
     .footer{
@@ -246,6 +261,7 @@ display: none;
     }
     .projo img{
         width: 100%;
+         margin-bottom: 30px;
     }
     .footer{
         display: none;
