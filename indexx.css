@@ -255,7 +255,7 @@ display: none;
     .projo{
         flex-direction: column;
         justify-content: space-between;
-        background-color: red;
+
         height: 700px;
         
     }
