@@ -1,14 +1,30 @@
+/*
+
+    PORTFOLIO WEBSITE PROJECT
+BY MARK MWAURA 
+license MIT
+25/11/2021
+
+*/
+/*
+This removes the default paddingand margin in the whole page 
+*/
 *{
     padding: 0;
     margin: 0;
     
 }
+/*
+This is the section that targets the navigation of  index.html page file
+
+*/
 nav{
     background-color:   rgba(0, 0, 0,0.8);
     display: flex;
     justify-content: flex-end;
 
 }
+
 nav a{
     font-family: 'Playfair Display', serif;
 font-family: 'Zen Kurenaido', sans-serif;
