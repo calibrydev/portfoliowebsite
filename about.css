@@ -1,8 +1,18 @@
+/*
+
+    PORTFOLIO WEBSITE PROJECT
+BY MARK MWAURA 
+license MIT
+25/11/2021
+
+
+*/
 *{
     padding: 0;
     margin: 0;
     
 }
+/* This is the styling of the navigation section  and the anchor tags*/
 nav{
     background-color:   rgba(0, 0, 0,0.8);
     display: flex;
@@ -50,12 +60,14 @@ nav button:hover{
 .logo a:hover{
     color: white;
 }
+/* This is the mother div styling where size and background color are added*/
 .mother{
     background-color: rgba(0, 0, 0,0.9)    ;
     width: 100%;
     height: 1500px;
     color: white;
 }
+/* This is the styling of the main section  and text and image divs*/
 main{
     display: flex;
     justify-content: space-between;
@@ -108,6 +120,9 @@ display: none;
     text-decoration: underline;
     margin-bottom: 20px;
 }
+/* 
+This is the styling for the table and caption
+*/
 table,td,th{
     border: 2px solid black;
     background-color: white;
@@ -121,6 +136,7 @@ caption{
     color: white;
     font-size: 30px;
 }
+/* this is  the styling for the footer */
 .footer{
     width: 100%;
         height: 100px;
@@ -139,6 +155,7 @@ caption{
 .footer i:hover{
     color: red;
 }
+/*this is the responsive section where the website is made to be reponsive on mobile view*/
 @media (max-width:500px){
     nav {
         width: 100%;
@@ -152,6 +169,7 @@ caption{
         font-size: 20px;
         padding: 15px;
     }
+    /* This is styling of the mother section   */
     .mother{
         position: relative;
         height: 1800px;
